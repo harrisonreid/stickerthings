@@ -1,0 +1,10 @@
+<div id="main_content_wrapper">
+ <div class="page" >
+  <% @stickers.each do |sticker| %>
+  <%=link_to(image_tag(sticker.sticker_preview.url(:medium), class: "sticker_preview_image"), sticker_path(id: sticker.id))%>
+  <% end %>
+ </div>
+  <%= will_paginate(@stickers, :next_label => '>', :previous_label => '<') %>
+</div>
+
+

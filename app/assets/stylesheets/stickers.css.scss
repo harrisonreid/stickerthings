@@ -1,0 +1,212 @@
+// Place all the styles related to the Stickers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#menu_bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 82px;
+  width: 100%;
+  background-color: #61B329;
+  z-index:1;
+  opacity: 0.9;
+}
+
+#site_title{
+  font-family: "Pacifico";
+  font-size: 45px;
+  color: #FFDEAD;
+  padding-top: 27px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  a:link,a:active,a:visited{
+  	color: inherit;
+  	text-decoration: inherit;
+  	transition: 0.5s;
+  }
+  a:hover{
+  	color: black;
+  }
+}
+
+#actual_title{
+	margin-left:-58px;
+}
+
+#categories{
+	float: left;
+	margin-left: 20%;
+	margin-top: 5px;
+	font-family: "Nixie One";
+	font-size: 19px;
+	color: #FFFAF0;
+	a:link,a:active,a:visited{
+		color: #FFFAF0;
+		text-decoration: none;
+		transition: .5s;
+	}
+	a:hover{
+		color: black;
+	}
+}
+
+#faq{
+	float: right;
+	margin-right: 20%;
+	margin-top: 5px;
+	font-family: "Nixie One";
+	font-size: 19px;
+	color: #FFFAF0;
+	a:link,a:active,a:visited{
+		color: #FFFAF0;
+		text-decoration: none;
+		transition: .5s;
+	}
+	a:hover{
+		color: black;
+	}
+
+}
+
+#main_content_wrapper{
+  position: absolute;
+  top: 122px;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 100px;
+  h2{
+  	font-family: "Nixie One";
+  	text-align: center;
+  	font-color: black;
+  	font-size: 18px;
+  	margin-left: 15%;
+  	margin-right: 15%;
+  	margin-top: 50px;
+  	margin-bottom: 20px;
+  }
+  p{
+  	font-family: "Montserrat";
+  	text-align: left;
+  	color: #545454;
+  	font-size: 13px;
+  	margin-left: 15%;
+  	margin-right: 15%;
+  	a{
+  		text-decoration: none;
+  	}
+
+  }
+
+}
+
+#the_tag_cloud{
+	margin-top: 50px;
+a:link, a:active, a:visited{
+	text-decoration: none;
+	font-family: "Nixie One";
+	color: #939393;
+	transition: .3s; 
+}
+a:hover{
+	color: black;
+}
+}
+
+.css1 { font-size: 15px; }
+.css2 { font-size: 20px; }
+.css3 { font-size: 25px; }
+.css4 { font-size: 30px; }
+
+
+.pagination{
+	width:100%;
+	margin-top: 60px;
+	text-align: center;
+	font-family: "Nixie One" !important;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+		  font-size: 25px !important;
+	a:link, a:active, a:visited, a:hover{
+		background: none !important;
+		box-shadow: none !important;
+		border: none !important;
+		font-family: "Nixie One" !important;
+		webkit-background: none;
+		transition: none !important;
+		margin-left: 10px !important;
+	  margin-right: 10px !important;
+	  font-size: 25px !important;
+	}
+}
+.pagination span{
+ 	width:100%;
+	margin-top: 60px;
+	text-align: center;
+	font-family: "Nixie One" !important;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+		  font-size: 25px !important;
+	a:link, a:active, a:visited, a:hover{
+		background: none !important;
+		box-shadow: none !important;
+		border: none !important;
+		font-family: "Nixie One" !important;
+		webkit-background: none;
+		transition: none !important;
+		margin-left: 10px !important;
+	  margin-right: 10px !important;
+	  font-size: 25px !important;
+	}
+}
+
+.pagination em{
+ 	width:100%;
+	margin-top: 60px;
+	text-align: center;
+	font-family: "Nixie One" !important;
+	margin-left: 10px !important;
+	margin-right: 10px !important;
+		  font-size: 25px !important;
+	a:link, a:active, a:visited, a:hover{
+		background: none !important;
+		box-shadow: none !important;
+		border: none !important;
+		font-family: "Nixie One" !important;
+		webkit-background: none;
+		transition: none !important;
+		margin-left: 10px !important;
+	  margin-right: 10px !important;
+	  font-size: 25px !important;
+	}
+}
+.pagination .current{
+		background: none;
+		box-shadow: none;
+		border-radius: 50%;
+		text-shadow: none;
+		color: black;
+		text-decoration: underline;
+		font-style: normal !important;
+	}
+
+.show_sticker_image{
+	max-width: 100%;
+	background-color: white;
+}
+
+#instructions{
+	font-size: 17px;
+	font-family: 'Nixie One';
+	color: black;
+}
+
+.back_button{
+	font-size: 30px;
+	font-family: "Nixie One";
+	a:link, a:active, a:visited{
+		text-style: none;
+	}
+}
